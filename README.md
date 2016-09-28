@@ -1,5 +1,5 @@
 # Lab05-Project1
-In this lab (project 1), students are expected to implement four ways (repectively by array, stack, queue, and linked list) to check whether input from a file is palindrome. By definition, a word, phrase, or sequence is called palindrome if it reads the same backward as forward. For this project, we only consider numerical inputs that read from a test file.
+In this lab (project 1), students are expected to implement four ways (respectively by array, stack, queue, and linked list) to check whether input from a file is palindrome. By definition, a word, phrase, or sequence is called palindrome if it reads the same backward as forward. For this project, we only consider numerical inputs that read from a test file.
 
 # Examples by pseudocode:
 ```
@@ -25,7 +25,7 @@ make array_gen #if you don't have array_gen executable
 ./array_gen 10000 testFile 10
 ```
 
-Essentially, you are required to implement the following four functions, where *fp is the file pointer and the *count* is the number of digits contained in the test file. Please feel free to add any user-defined helper functions for your need. We have provided you useful functions in the skeleton code.
+Essentially, you are required to implement the following four functions, where *fp* is the file pointer and the *count* is the number of digits contained in the test file. Please feel free to add any user-defined helper functions for your need. We have provided you useful functions in the skeleton code.
 ```
 bool checkPalByArray(FILE *fp)
 bool checkPalByStack(FILE *fp, int count)
@@ -36,13 +36,14 @@ bool checkPalByList(FILE *fp)
 
 # HINT:
 For all the four implementations, you need to consider at least three cases: 
+
 1. empty input
 2. odd number of inputs
 3. even number of inputs
 
 Start with very small test cases.
 
-You can reuse the your former code (e.g. *read_array*) from your previous lab, but reusing other students' code is not allowed.
+You can reuse the your former code (e.g. *read_array*) from your previous labs, but reusing other students' code is not allowed.
 
 # Bonus Points
-If all your code can output the correct answers and without memory error, you will get 100. Even better, if your all your four implementations are with time complexity O(n), you can get extra 20 points.
+If all your code can output the correct answers and without memory error, you will get 100 points. Even better, if your all your four implementations are with time complexity O(n), you can get extra 20 points.
