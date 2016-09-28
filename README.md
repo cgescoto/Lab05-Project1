@@ -28,8 +28,8 @@ make array_gen #if you don't have array_gen executable
 Essentially, you are required to implement the following four functions, where *fp* is the file pointer and the *count* is the number of digits contained in the test file. Please feel free to add any user-defined helper functions for your need. We have provided you useful functions in the skeleton code.
 ```
 bool checkPalByArray(FILE *fp)
+bool checkPalByQueueAndStack(FILE *fp, int count)
 bool checkPalByStack(FILE *fp, int count)
-bool checkPalByQueue(FILE *fp, int count)
 bool checkPalByList(FILE *fp)
 
 ``` 
